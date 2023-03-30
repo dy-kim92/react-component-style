@@ -2,6 +2,7 @@ import "./App.css";
 import { Component } from "react";
 import SassComponent from "./SassComponent";
 import CSSModule from "./CSSModule";
+import StyledComponent from "./StyledComponent";
 
 // function App() {
 //     return (
@@ -29,7 +30,8 @@ class App extends Component {
         return (
             <div>
                 {/* <SassComponent /> */}
-                <CSSModule />
+                {/* <CSSModule /> */}
+                <StyledComponent />
             </div>
         );
     }
